@@ -1,0 +1,42 @@
+main{
+    margin: 20px auto;
+    width: 50%;
+    border: 1px solid red;
+}
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+h3{
+    background-color:beige ;
+    text-align: center;
+
+}
+section{
+    display: flex;
+}
+#principal{
+    width: 75%;
+}
+aside{
+    width: 75%;
+    text-align: center;
+}
+.video{
+    position: relative;
+    padding-bottom: 56.25% /*16x9*/;
+}
+iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 5px solid blue;
+    border-radius: 20px;
+}
+footer{
+    height: 5px;
+}
